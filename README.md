@@ -1,4 +1,4 @@
-# Death Clock Template
+# Death Clock 
 
 > *"Sometimes The Questions Are Complicated And The Answers Are Simple"*
 
