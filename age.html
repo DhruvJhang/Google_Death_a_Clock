@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Life Span Predictor</title>
+        <link rel="stylesheet" href="AGE.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            const arr_questions = ["1 Q", "2 Q", "3 Q"]
+            const answers = []
+            let count = 0
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("H1").text(arr_questions[count])
+                answers.push(12)
+                console.log(answers)
+                count += 1
+              });
+            });
+            </script>
+    </head>
+
+    <body bgcolor= #2C2C34">
+ <H1>   Q) What is your Gender?</H1>
+<textarea class="solution" id="solution" name="solution" rows="4" cols="50"></textarea>
+ <button class="rounded-button" href="age.html">Next</button>
+
+    
+    </body>
+</html>
